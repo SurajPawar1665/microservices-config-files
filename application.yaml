@@ -12,6 +12,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+
+logging:
+  level:
+    root: WARN
+        
 eureka:
   instance:
     prefer-ip-address: true
